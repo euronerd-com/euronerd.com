@@ -2,8 +2,8 @@ site_name: EuroNerd
 theme:
   name: material
   palette:
-    primary: 'blue'
-    accent: 'dark blue'
+    primary: "#3764fd"    # Primary color (light blue)
+    accent: "#1c3d8c"     # Secondary color (darker blue)
   features:
     - navigation.tabs
     - navigation.expand
