@@ -1,0 +1,9 @@
+# Getting Started
+
+!!! note
+    This is a note.
+
+```python
+# Example code block
+def hello_world():
+    print("Hello, world!")

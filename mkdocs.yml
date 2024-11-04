@@ -1,3 +1,29 @@
-site_name: My Awesome Docs
+site_name: EuroNerd
 theme:
   name: material
+  palette:
+    primary: 'blue'
+    accent: 'dark blue'
+  features:
+    - navigation.tabs
+    - navigation.expand
+    - toc.integrate
+    - search.highlight
+    - search.suggest  
+markdown_extensions:
+  - admonition
+  - codehilite
+  - footnotes
+  - toc:
+      permalink: true
+
+nav:
+  - Home: index.md
+  - Guides:
+      - Introduction: guides/introduction.md
+      - Getting Started: guides/getting-started.md
+      - Advanced Usage: guides/advanced-usage.md
+  - Tools:
+      - Tool 1: tools/tool1.md
+      - Tool 2: tools/tool2.md
+  - About: about.md
